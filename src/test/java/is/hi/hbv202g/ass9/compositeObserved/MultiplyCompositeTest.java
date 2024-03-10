@@ -1,6 +1,4 @@
-package is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod;
-
-import static org.junit.Assert.*;
+package is.hi.hbv202g.ass9.compositeObserved;
 
 import org.junit.Before;
 import org.junit.Test;
