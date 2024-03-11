@@ -23,6 +23,7 @@ public class PlusCompositeTest {
         NumberLeaf number2 = new NumberLeaf(2);
 
         plusComposite.add(number2);
+
         assertEquals("A plus composite consisting only of one leaf with value 2 should return 2",
                 2, plusComposite.getResult());
     }
@@ -34,6 +35,7 @@ public class PlusCompositeTest {
 
         plusComposite.add(number1);
         plusComposite.add(number2);
+
         assertEquals("A plus composite consisting of leafs with values 1 and 2 should return 3",
                 3, plusComposite.getResult());
     }
