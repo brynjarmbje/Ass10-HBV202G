@@ -23,6 +23,7 @@ public class MultiplyCompositeTest {
 				2, multiplyComposite.getResult());
 	}
 
+	@Test
 	public void testTwoElementMultiplyComposite() {
 
 		NumberLeaf number2 = new NumberLeaf(2);
@@ -34,6 +35,7 @@ public class MultiplyCompositeTest {
 				8, multiplyComposite.getResult());
 	}
 
+	@Test
 	public void testNestedMultiplyComposite() {
 
 		NumberLeaf number2 = new NumberLeaf(2);
@@ -46,7 +48,7 @@ public class MultiplyCompositeTest {
 		multiplyComposite2.add(multiplyComposite);
 		multiplyComposite2.add(multiplyComposite);
 		assertEquals("A multiply composite consisting two further multiply composites, each consisting of leafs with " +
-				"values 2 and 4 should return (2*4)*(2*4)=64", 64, multiplyComposite.getResult());
+				"values 2 and 4 should return (2*4)*(2*4)=64", 64, multiplyComposite2.getResult());
 	}
 
 }

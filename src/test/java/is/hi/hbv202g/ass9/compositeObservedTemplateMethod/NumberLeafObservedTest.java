@@ -11,6 +11,7 @@ public class NumberLeafObservedTest implements Observer {
 
 	@Before
 	public void setUp() {
+		lastObservedResult=0; // This value here must be different than the one set in the next line
 		number1 = new NumberLeaf(1);
 	}
 
@@ -25,8 +26,7 @@ public class NumberLeafObservedTest implements Observer {
 	}
 
 	@Override
-	public void update() {
-		lastObservedResult=number1.getResult();
+	public void update() { // We need to provide this method according to the Observer interface that this test class implements
+		lastObservedResult=number1.getResult(); // If we get called we store the value in lastObservedResult so that the test case above can assert on it
 	}
 }
-
