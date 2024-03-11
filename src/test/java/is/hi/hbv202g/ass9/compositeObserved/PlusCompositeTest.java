@@ -15,7 +15,7 @@ public class PlusCompositeTest {
 
     @Test
     public void testEmptyPlusComposite() {
-        assertEquals("An emoty plus composite should return 0", 0, plusComposite.getResult());
+        assertEquals("An empty plus composite should return 0", 0, plusComposite.getResult());
     }
 
     @Test
