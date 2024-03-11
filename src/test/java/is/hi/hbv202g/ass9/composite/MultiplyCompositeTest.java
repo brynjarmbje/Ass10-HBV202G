@@ -1,7 +1,6 @@
 package is.hi.hbv202g.ass9.composite;
 
 import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 

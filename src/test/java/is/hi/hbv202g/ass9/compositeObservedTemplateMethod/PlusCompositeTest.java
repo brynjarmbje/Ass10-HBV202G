@@ -1,5 +1,6 @@
 package is.hi.hbv202g.ass9.compositeObservedTemplateMethod;
 
+import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +15,7 @@ public class PlusCompositeTest {
 
 	@Test
 	public void testEmptyPlusComposite() {
-		assertEquals("An emoty plus composite should return 0", 0, plusComposite.getResult());
+		assertEquals("An empty plus composite should return 0", 0, plusComposite.getResult());
 	}
 
 	@Test
