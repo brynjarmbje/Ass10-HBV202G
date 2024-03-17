@@ -2,8 +2,6 @@
 A project skeleton for implementing the *Composite* pattern and the *Observer* pattern 
 (and some sort of *Template Method* pattern) based on tests using JUnit4.
 
-## Installation
-
 This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE should understand 
 when you `git clone` it. The provided Maven POM includes the JUnit4 dependency.
 
@@ -23,10 +21,6 @@ but in the usual separate Maven `src` directories:
    observed by the composite implementation.
   - `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`: The same test cases for testing the refactoring of the 
      above patterns inspired by the *Template Method* pattern.
-
-## Building
-
-Maven:
 
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, 
