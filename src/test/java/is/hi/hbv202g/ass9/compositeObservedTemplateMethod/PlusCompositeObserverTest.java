@@ -20,7 +20,7 @@ public class PlusCompositeObserverTest {
 
 		plusComposite.update(); // This will cause stuff printed on the screen: this is not tested.
 
-		assertEquals("An observing plus composite should store in its lastObservedField the value 1 to which the observed " +
+		assertEquals("An observing plus composite with one number leaf should store in its lastObservedField the value 1 to which the observed " +
 				"leaf was set", 1, plusComposite.getLastObservedResult());
 	}
 
