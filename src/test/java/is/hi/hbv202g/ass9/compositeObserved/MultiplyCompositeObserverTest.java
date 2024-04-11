@@ -20,7 +20,7 @@ public class MultiplyCompositeObserverTest {
 
 		multiplyComposite.update(); // This will cause stuff printed on the screen: this printing to screen is not tested by any of the JUnit tests.
 
-		assertEquals("An observing multiply composite should store in its lastObservedField the value 2 to which the observed " +
+		assertEquals("An observing multiply composite with one number leaf should store in its lastObservedField the value 2 to which the observed " +
 				"leaf was set", 2, multiplyComposite.getLastObservedResult());
 	}
 }
