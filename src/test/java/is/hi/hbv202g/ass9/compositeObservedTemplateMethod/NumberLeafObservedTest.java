@@ -20,8 +20,8 @@ public class NumberLeafObservedTest implements Observer {
 		number1.attach(this);
 		number1.setValue(3);
 
-		assertEquals("A leaf observed by this testcase should call update method of this testcase after having " +
-						"set value of this leaf to 3 and this leaf should returns this new value 3 when asked by the update method",
+		assertEquals("A leaf observed by this testcase should call the update method of this testcase when " +
+						"setting the value of this leaf to 3 and this leaf should return this new value 3 when getResult is used by the called update method",
 				3, lastObservedResult);
 	}
 
