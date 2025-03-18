@@ -5,6 +5,8 @@ import org.junit.Test;
 
 public class NumberLeafTest {
 
+
+
 	@Test
 	public void testNumberLeaf() {
 		NumberLeaf number1 = new NumberLeaf(1);
