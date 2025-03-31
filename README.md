@@ -47,7 +47,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Object-Oriented Design Documentation
 
-The final design of the project is documented in detail in the [Design Documentation](design.html) file. This document includes a UML class diagram that captures the classes, methods, attributes, and the essential associations for the package `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`.
+The final design of the project is documented in detail in the [Design Documentation](src/site/markdown/design.md) file. This document includes a UML class diagram that captures the classes, methods, attributes, and the essential associations for the package `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`.
 
 ### Creating the Design Documentation
 
