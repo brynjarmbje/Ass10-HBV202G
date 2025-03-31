@@ -47,7 +47,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Object-Oriented Design Documentation
 
-The final design of the project is documented in detail in the [Design Documentation](src/site/markdown/design.md) file. This document includes a UML class diagram that captures the classes, methods, attributes, and the essential associations for the package `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`.
+The final design of the project is documented in detail in the [Design Documentation](design.html) file. This document includes a UML class diagram that captures the classes, methods, attributes, and the essential associations for the package `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`.
 
 ### Creating the Design Documentation
 
@@ -60,7 +60,7 @@ The final design of the project is documented in detail in the [Design Documenta
   - Use the Markdown image syntax to add your diagram. For example:
 
     ```markdown
-    ![UML Class Diagram](design-diagram.png)
+    ![](design-diagram.png)
     ```
     - Ensure that the image file is in the same directory as your `design.md` file or provide the correct path to the image.
 3. **Document the Design:**
