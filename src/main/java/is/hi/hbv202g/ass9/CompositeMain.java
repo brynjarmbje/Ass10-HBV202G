@@ -4,6 +4,14 @@ import is.hi.hbv202g.ass9.composite.*;
 
 public class CompositeMain {
 
+	/**
+	 * The entry point of the application.
+	 *
+	 * <p>This method initializes the application and starts the execution flow.
+	 *
+	 * @param args Command line arguments passed to the application.
+	 */
+
 	public static void main(String[] args) {
 		NumberLeaf number1 = new NumberLeaf(1);
 		NumberLeaf number2 = new NumberLeaf(2);

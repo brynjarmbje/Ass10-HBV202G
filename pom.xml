@@ -14,6 +14,12 @@
     <license>
       <name>MIT</name>
     </license>
+    <license>
+      <name>MIT License</name>
+      <url>LICENSE</url>
+      <distribution>repo</distribution>
+      <comments>Copyright (c) 2025 Brynjar Mar Bjornsson, Helmut Neukirchen</comments>
+    </license>
   </licenses>
   <organization>
     <name>University of Iceland</name>
@@ -91,4 +97,16 @@
       </plugin>
     </plugins>
   </build>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <source>${java.version}</source>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
